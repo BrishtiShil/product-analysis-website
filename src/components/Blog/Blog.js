@@ -9,11 +9,17 @@ const Blog = () => {
             </p>
             <h2>Difference between inline,block and inline-block elements.</h2>
             <p>
-                <h3>Inline:</h3> The element doesn't start on a new line and only occupy just the width it requires. You can't set the width or height.<br />
+                <h3>Inline:</h3>
+                1.The element doesn't start on a new line and only occupy just the width it requires.<br />
+                2. You can't set the width or height.<br />
 
-                <h3>Inline-block:</h3> It's formatted just like the inline element, where it doesn't start on a new line. BUT, you can set width and height values.<br />
+                <h3>Inline-block:</h3>
+                1.It's formatted just like the inline element, where it doesn't start on a new line.<br />
+                2.BUT, you can set width and height values.<br />
 
-                <h3>Block:</h3> The element will start on a new line and occupy the full width available. And you can set width and height values.
+                <h3>Block:</h3>
+                1.The element will start on a new line and occupy the full width available.<br />
+                2.And you can set width and height values.
             </p>
         </div>
     );
