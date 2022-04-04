@@ -2,6 +2,20 @@
 
   [Private repo link](https://github.com/facebook/create-react-app).
 
+  ## Here 4 Components:
+
+  <ul style=“list-style-type:cycle>
+
+<li>Make navbar.Add image and text.</li>
+
+<li>Show Customer Review</li>
+
+<li>Using dashboard and show rechart</li>
+
+<li>Description about context api,inline,block and inline-block.
+
+</ul>
+
 ## Available Scripts
 
 In the project directory, you can run:
