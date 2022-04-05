@@ -1,6 +1,6 @@
 # Product Analysis Website
 
-  [Private repo link](https://shimmering-panda-c7125d.netlify.app/).
+  Private repo link[(https://shimmering-panda-c7125d.netlify.app/)].
 
   ## Here we show:
 
