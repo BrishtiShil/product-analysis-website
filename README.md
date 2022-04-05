@@ -2,7 +2,7 @@
 
   [Private repo link](https://github.com/facebook/create-react-app).
 
-  ## Here 4 Components:
+  ## Here we show:
 
   <ul style=“list-style-type:cycle>
 

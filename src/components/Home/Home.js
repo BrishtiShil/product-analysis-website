@@ -1,6 +1,11 @@
 import React from 'react';
+import useReviews from '../../hooks/useReviews';
+import Reviews from '../Reviews/Reviews';
+import ShowHomeReview from '../SowHomeReview/ShowHomeReview';
+import './Home.css';
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
     return (
         <section>
             <div style={{ display: "flex" }}>
@@ -14,6 +19,14 @@ const Home = () => {
                 </div>
             </div>
             <h1>Customer Reviews</h1>
+            <div className='homeShow'>
+                {
+                    reviews.slice(0, 3).map(review => <ShowHomeReview
+                        key={review.id}
+                        review={review}
+                    ></ShowHomeReview>)
+                }
+            </div>
         </section>
     );
 };
